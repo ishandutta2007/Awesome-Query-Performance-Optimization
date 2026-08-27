@@ -27,63 +27,21 @@ How to Contribute
 
 Disclaimer
 
-SaaS/Hosted Platforms
+## SaaS / Hosted Platforms
 
-EverSQL
-SQL query optimization platform that analyzes SQL statements and provides automated optimization recommendations for improving query performance.
-
-pganalyze
-PostgreSQL performance platform providing query-level monitoring, execution-plan analysis, Query Advisor, Index Advisor, VACUUM Advisor, workload analysis, and performance troubleshooting.
-
-Postgres.ai
-PostgreSQL development and performance platform centered around database experimentation, query optimization, database branching, and production troubleshooting.
-
-SolarWinds Database Performance Analyzer
-Database performance monitoring and analysis platform designed to identify database bottlenecks, problematic SQL, waits, resource contention, and performance trends across database environments.
-
-Redgate SQL Monitor
-SQL Server monitoring and performance-analysis platform providing database health monitoring, query performance analysis, alerts, blocking analysis, and workload visibility.
-
-Devart dbForge Monitor
-Database monitoring and performance-analysis tooling integrated into the dbForge ecosystem, providing database health metrics, workload monitoring, and query-performance investigation.
-
-Datadog Database Monitoring
-Database observability platform providing query-level performance metrics, execution plans, database health monitoring, resource analysis, and correlation with application telemetry.
-
-ClusterControl
-Database operations and management platform supporting monitoring, performance analysis, automation, backups, and administration across MySQL, PostgreSQL, MongoDB, and other database technologies.
-
-Percona Toolkit
-Collection of command-line tools for MySQL, Percona Server, PostgreSQL, and related databases, including utilities for query analysis, diagnostics, schema management, and database operations.
-
-SQL Sentry
-SQL Server performance monitoring and diagnostics platform providing workload analysis, query performance investigation, blocking/deadlock analysis, and historical performance data.
-
-Additional Notable SaaS / Hosted Platforms
-
-SolarWinds SQL Sentry — SQL Server workload and performance monitoring.
-
-SolarWinds Database Performance Analyzer — Cross-platform database performance analysis and bottleneck detection.
-
-pganalyze — Deep PostgreSQL query, plan, index, and workload analysis.
-
-Postgres.ai — PostgreSQL development, database branching, and performance troubleshooting.
-
-pgMustard — PostgreSQL EXPLAIN ANALYZE plan analysis and optimization guidance.
-
-EverSQL — Automated SQL optimization and query rewriting.
-
-Datadog Database Monitoring — Database observability and query-level monitoring.
-
-ClusterControl — Database infrastructure monitoring and management.
-
-Redgate SQL Monitor — SQL Server monitoring and diagnostics.
-
-Devart dbForge — Database development, profiling, and administration tooling.
-
-Percona Toolkit — Database diagnostic and operational utilities.
-
-SolarWinds SQL Sentry — SQL Server performance monitoring and workload analysis.
+| Product | Core Capabilities | Supported Databases | Pricing (Starting Tier) | Free Tier & Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[pganalyze](https://pganalyze.com)** | PostgreSQL performance monitoring, execution plan analysis, Index Advisor, VACUUM Advisor, and query troubleshooting. | PostgreSQL | Starts at **$149 / month** (Production plan for 1 server, 14 days history; Scale plan at $399/month for up to 4 servers) | **14-day free trial** (Full access, unlimited users, no credit card required; no permanent free tier) |
+| **[EverSQL](https://www.eversql.com)** | AI-driven SQL query optimizer and indexing recommendations for automated query rewriting and slow-query tuning. | PostgreSQL, MySQL, MariaDB | **$0** (Free standalone web query optimizer); continuous monitoring starts at **$29 / month** (Aiven platform tiers) | **Free-forever plan** (Unlimited single-query optimizations via web tool) and **14-day free trial** on cloud platform |
+| **[pgMustard](https://www.pgmustard.com)** | Visual execution plan analysis for PostgreSQL `EXPLAIN (ANALYZE, BUFFERS)` output with performance tips and bottleneck scoring. | PostgreSQL | Starts at **€95 / year** (~$100/yr for Pro single user; €500/year for Team up to 20 users) | **Free trial: 5 query plan reviews** (Includes all tips and visual plan tree inspection; no credit card required) |
+| **[Postgres.ai](https://postgres.ai)** | PostgreSQL development and performance platform with Database Lab Engine (thin database branching/cloning) and automated AI checkups. | PostgreSQL | **$0 / month** (Hobby plan); Express plan starts at **$16 / cluster / month**; DBLab Standard from **$62 / month** | **Free-forever Hobby plan** (Includes weekly AI-assisted database checkup reports for personal/pet projects) |
+| **[Datadog Database Monitoring](https://www.datadoghq.com/product/database-monitoring/)** | Enterprise database observability and telemetry correlation with query metrics, execution plans, and wait event analysis. | PostgreSQL, MySQL, SQL Server, Oracle, Aurora | Starts at **$70 / database host / month** (Annual commitment) or **$84 / database host / month** (On-demand) | **14-day free trial** (Full platform access including Database Monitoring, APM, and host metrics; no permanent free tier) |
+| **[SolarWinds Database Performance Analyzer (DPA)](https://www.solarwinds.com/database-performance-analyzer)** | Multi-database wait-time analysis, SQL bottleneck identification, blocking/deadlock diagnostics, and anomaly detection. | SQL Server, Oracle, PostgreSQL, MySQL, DB2, SAP ASE | Starts at **$1,699 per database instance** (Perpetual license with 1st yr maintenance) or **$840 / instance / year** (Subscription) | **14-day free trial** (Fully functional across all supported database engines without instance limits) |
+| **[SolarWinds SQL Sentry](https://www.solarwinds.com/sql-sentry)** | SQL Server workload profiling, execution plan analysis, tempdb monitoring, deadlock diagnostics, and automated tuning. | SQL Server, Azure SQL | Starts at **$1,233 / target instance / year** (Subscription) or perpetual license starting at **$2,495 / instance** | **14-day free trial** (Fully functional monitoring and diagnostics for SQL Server and cloud database targets) |
+| **[Redgate SQL Monitor](https://www.red-gate.com/products/dba/sql-monitor/)** | Fleet-wide SQL Server health monitoring, blocking and deadlock analysis, slow query tracking, and execution plan diagnostics. | SQL Server, Azure SQL | Starts at **$1,233 / server / year** (Standard tier for 1–4 servers; volume discounts starting at 5+ servers) | **14-day free trial** (Full enterprise monitoring feature set across on-premise, virtual machines, and cloud instances) |
+| **[ClusterControl](https://severalnines.com/clustercontrol/)** | Multi-database operations, topology deployment, automated failover, query performance monitoring, and backup automation. | MySQL, MariaDB, PostgreSQL, MongoDB, Redis | **€0** (Community Edition); Advanced tier starts at **€250 / node / month** (or **€0.35 / node / hour**) | **Free-forever Community Edition** (Core deployment, monitoring, and replication management) + **30-day free trial** of Enterprise features |
+| **[Devart dbForge Studio / Monitor](https://www.devart.com/dbforge/)** | Database IDE and performance monitoring tooling with query profiling, execution plan inspection, and server health tracking. | SQL Server, MySQL, MariaDB, PostgreSQL, Oracle | **$0** (dbForge Monitor add-in for SSMS); dbForge Studio Standard starts at **$119.40 / user / year** (MySQL) or **$229.95 / user / year** (SQL Server) | **30-day free trial** (Enterprise features) which reverts to **free-forever Express Edition** (Basic query editing and management); SSMS Monitor add-in is free forever |
+| **[Releem](https://releem.com)** | Automated database configuration tuning, query analytics, and index recommendations via lightweight agent and cloud console. | MySQL, MariaDB, PostgreSQL | Starts at **$11 / server / month** (Hosting plan) or **$25 / server / month** (Advanced plan with query analytics) | **14-day free trial** (Full feature set) and **Free plan** (Basic configuration recommendations for up to 1 server) |
 
 Open-Source GitHub Projects
 
